@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: url(images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+}
+.container{
+    max-width: 27.5rem;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    box-shadow: 0 15px 25px 0 hsl(245deg 75% 52% / 11%)
+}
+.hero-img img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.container-text{
+    text-align: center;
+}
+.title{
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 1.3em 0 .8em 0; 
+    color: hsl(223, 47%, 23%);
+}
+.container-text .Description{
+    color: hsl(224, 23%, 55%);
+    font-size: .95rem;
+    line-height: 1.6;
+    padding: 0 2.1em 1.4em 2.1em;
+}
+.plan-box{
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5em 1.5em 1.5em;
+    padding: 1em;
+    border-radius: 10px;
+}
+.plan-box-left{
+    display: flex;
+}
+.plan-box-left img{
+    height: 48px;
+    width: 48px;
+    display: block;
+}
+.plan-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 1.2em;
+    font-size: .7em;
+    gap: .2em;
+}
+.plan-details p{
+    font-size: .8rem;
+    color: hsl(224, 23%, 55%);
+} 
+.plan-box-right a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    opacity: 1;
+    transition: all .2s ease;
+    font-size: .8rem;
+}
+.plan-box-right a:hover{
+    opacity: .8;
+}
+.plan-box-right a:focus-visible {
+    /* for browsers that do support :focus-visible */
+    outline: 3px dashed hsl(224, 23%, 55%);
+}
+.buttons-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.65em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.btn{
+    all: unset;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 1em;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+}
+.btn:focus-visible {
+    /* for browsers that do support :focus-visible */
+    outline: 3px dashed hsl(224, 23%, 55%);
+}
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: 0 15px 20px 0 hsl(245deg 75% 52% / 25%);
+    opacity: 1;
+    transition: all .2s ease;
+    font-size: 15.2px;
+}
+.payment:hover{
+    opacity: .8;
+}
+.cancel{
+    color: hsl(224, 23%, 55%);
+    transition: all .2s ease;
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+.attribution{
+    margin-top: 2rem;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+/* Media Queres   */
+@media(min-width:450px){
+    body{
+        background: url(images/pattern-background-desktop.svg),hsl(225, 100%, 94%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .title {
+        font-size: 1.7rem;
+        padding-top: 1.7em;
+        padding-bottom: .7em;
+    }
+    .container-text .Description{
+        font-size: 1.05rem;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .plan-box {
+        margin: 0 3em 2em 3em;
+        padding: 1.5em;
+      }
+    
+    .plan-details h2 {
+        font-size: 1.05rem;
+      }
+    
+    .plan-details p {
+        font-size: 1.05rem;
+      }
+    
+    .plan-box-right a {
+        font-size: .9rem;
+      }
+    
+    .btn {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}

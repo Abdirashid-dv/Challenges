@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-[Solution](https://github.com/Abdirashid-dv/Challenges/tree/master/order-summary-component)
-[Live Site](https://order-summary-component-abdirashid-dv.vercel.app/)
+- [Solution](https://github.com/Abdirashid-dv/Challenges/tree/master/order-summary-component)
+- [Live Site](https://order-summary-component-abdirashid-dv.vercel.app/)
 
 ## My process
 

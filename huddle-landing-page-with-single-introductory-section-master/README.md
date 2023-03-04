@@ -5,9 +5,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -15,15 +13,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
-
 ### Screenshot
 
-![](./screenshots/mobile-version.jpg)
 ![](./screenshots/desktop-version.jpg)
 
 
@@ -34,7 +25,7 @@ Users should be able to:
     <a href="https://catherineisonline.github.io/huddle-landing-page-with-a-single-introductory-section-frontendmentor/" color="white">
       Live
     </a>
-  <span> | </span>    <a href="https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-6uAm3BHTq">
+  <span> | </span>    <a href="https://github.com/Abdirashid-dv/Challenges/tree/master/huddle-landing-page-with-single-introductory-section-master">
       Solution
     </a>
   <span> | </span>    <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">
@@ -45,8 +36,7 @@ Users should be able to:
 <div align="center">
    Solution for a challenge from  <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.
 </div>
-<br>
-<br>
+
 <br>
 
 ## My process
